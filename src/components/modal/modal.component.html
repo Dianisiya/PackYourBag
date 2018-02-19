@@ -1,0 +1,7 @@
+<button class="add-city" (click)="openWindow()">Add</button>
+<div class="main-container" [ngClass]="{hidden: closed}">
+  <div class="window">
+    <input class="city" type="text" placeholder="City" [(ngModel)]="cityName">
+    <button class="add-city" (click)="closeWindow()">Add</button>   
+  </div>
+</div>

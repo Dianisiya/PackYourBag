@@ -1,0 +1,14 @@
+<div class="head">
+    <p class="logo">PYB</p>
+    <p class="explain">Pack Your Bag</p>
+</div>
+
+<app-modal (cityAdded)="refreshCities()">
+    
+</app-modal>
+<app-list [ice]="ice" [hot]="hot" [cities]="cities">
+    
+</app-list>
+
+<button class="to-default" (click)="dropToDefault()">Drop to default</button>
+

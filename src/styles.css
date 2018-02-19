@@ -1,1 +1,85 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    animation-name: images;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+
+@keyframes images {
+    0%   {
+        background-image: url(https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); 
+    }
+    5%   {
+        background-image: url(https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); 
+    }
+    10%  {
+        background-image: url(https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); 
+    }
+    15%  {
+        background-image: url(https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); 
+    }
+    20%  {
+        background-image: url(https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); 
+    }
+    25%  {
+        background-image: url(https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); 
+    }
+    30% {
+        background-image: url(https://images.pexels.com/photos/763901/pexels-photo-763901.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); 
+    }
+    35% {
+        background-image: url(https://images.pexels.com/photos/763901/pexels-photo-763901.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); 
+    }
+    40% {
+        background-image: url(https://images.pexels.com/photos/709689/pexels-photo-709689.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); 
+    }
+    45% {
+        background-image: url(https://images.pexels.com/photos/709689/pexels-photo-709689.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); 
+    }
+    50% {
+        background-image: url(https://images.pexels.com/photos/860563/pexels-photo-860563.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+    }
+    55% {
+        background-image: url(https://images.pexels.com/photos/860563/pexels-photo-860563.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+     }
+    60% {
+        background-image: url(https://images.pexels.com/photos/7919/pexels-photo.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+    }
+    65% {
+        background-image: url(https://images.pexels.com/photos/7919/pexels-photo.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+    }
+    70% {
+        background-image: url(https://images.pexels.com/photos/7653/pexels-photo.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+    }
+    75% {
+        background-image: url(https://images.pexels.com/photos/7653/pexels-photo.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+    }
+    80% {
+        background-image: url(https://images.pexels.com/photos/696680/pexels-photo-696680.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+    }
+    85% {
+        background-image: url(https://images.pexels.com/photos/696680/pexels-photo-696680.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+    }
+    90% {
+        background-image: url(https://images.pexels.com/photos/450597/pexels-photo-450597.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+    }
+    95% {
+        background-image: url(https://images.pexels.com/photos/450597/pexels-photo-450597.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+    }
+    
+    100%   {
+        background-image: url(https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb); 
+    }
+}

@@ -1,0 +1,2 @@
+const listCities = ['Tirana', 'Andorra la Vella', 'Yerevan','Vienna','Baku','Minsk','Brussels','Sarajevo','Sofia','Zagreb','Prague','Copenhagen','Tallinn','Helsinki','Paris','Tbilisi','Berlin','Athens','Budapest','Reykjavik','Dublin','Rome','Astana','Riga','Vaduz','Vilnius','Luxembourg','Skopje','Valletta','Chisinau','Monaco','Podgorica','Amsterdam','Oslo','Warsaw','Lisbon','Bucharest','Moscow','San Marino','Belgrade','Bratislava','Ljubljana','Madrid','Stockholm','Bern','Ankara','Kyiv','London','Vatican City'];
+export default listCities;

@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="header">
+        <div class="name"  (click)="sortName()">NAME <i class="ion-android-arrow-dropdown" title="Sort by name"></i></div>
+        <div class="temperature" (click)="sortTemperature()">temperature <i class="ion-android-arrow-dropdown" title="Sort by temperature"></i></div>
+        <div class="weather" (click)="sortWeather()">WEATHER <i class="ion-android-arrow-dropdown" title="Sort by weather"></i></div>
+        <div class="icons" (click)="sortStatus()">icons <i class="ion-android-arrow-dropdown" title="Sort by status"></i></div>
+    </div>
+  <ul class="list">
+    <li *ngFor="let city of cities" 
+        class="item" 
+        [ngClass]="{gray: city.status === 2, purpure: city.status === 1, red: city.temperature === hot, blue: city.temperature === ice}"    
+        > 
+      <div class="name">{{ city.name }}</div>
+      <div class="temperature">{{ city.temperature }}</div>
+      <div class="weather">{{ city.weather }}</div>
+      <div class="icons">
+        <i class="ion-map" (click)="changeStatusMap(city.name)" title="Going to visit this country"></i>
+        <i class="ion-heart" (click)="changeStatusHeart(city.name)" title="Already visited :) "></i>
+        <i class="ion-ios-trash" (click)="delete(city.name)" title="Delete this country"></i>
+      </div>
+    </li>
+   </ul>
+</div>
